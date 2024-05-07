@@ -51,5 +51,34 @@ Scoring : gensim.models.coherencemodel.CoherenceModel
 
 ## 4. 상품 분석
 
-<img src="./docs/image/category_product_avg.png" alt="카테고리 평균가" width="500"/> <img src="./docs/image/category_product_qna.png" alt="카테고리 qna" width="500"/>
+<img src="./docs/image/category_product_avg.png" alt="카테고리 평균가" width="400"/> <img src="./docs/image/category_product_qna.png" alt="카테고리 qna" width="400"/>
 
+```
+대부분의 카테고리의 평균 가격은 평균 구매 가격인 4만원 선을 하회하였다.
+-> 가격적으로는 충성 이용자가 감당할 수 있을 정도로 판단된다.
+-> 이용자 고정과 신규 이용자 모집 전략에 따라 가격 변동 전략을 가져갈 수 있다. 
+
+문의수에서는 living보다 fashion 카테고리가 가장 많았으며 collabo는 상품수에 비해 문의수가 현저히 낮음을 확인하였다.
+-> 패션 용품의 가짓수에 비해 수요가 높다. 때문에 이에 관련된 콜라보나 상품 개발을 진행하면 효과적일 것이다.
+-> 콜라보 상품에 대해 문의수가 낮은것은 수요가 없는지 / 만족이 높은지 따로 확인해야한다.
+```
+
+<img src="./docs/image/product_qna_count.png" alt="qnatop10" width="400"/> <img src="./docs/image/review.png" alt="reviwtop10" width="400"/>
+
+```
+예상과 다르게 아이들 용품은 주요 판매 상품이 아니었다.
+콜라보 물품들에대한 수요와 문의가 높다. -> 콜라보에 대한 만족도가 높다.
+패션 안에서도 의류보다 가방 / 악세사리의 수요가 높았다.
+```
+
+## 5. 결론
+
+![결론](./docs/image/result.png)
+
+
+## 6. 후기
+
+- 내부 데이터가 아닌 인터넷에 공개된 데이터로만 분석하여 일부 결론을 유추할 수 밖에 없었어서 아쉬웠다.
+- 리뷰 데이터를 가장 많이 수집하였으나 라벨링이 되어있지 않아서 감성분석에 활용하기가 어려웠다.
+    + 또한, 긍정에 너무 치우처져 있는 데이터라서 다른 내부 데이터와 결합하여 사용해야 할 것 같다.
+- 이 외에 오프라인 데이터를 구할 수 없어서 통합 결론을 내리기 어려웠다.
