@@ -51,5 +51,5 @@ Scoring : gensim.models.coherencemodel.CoherenceModel
 
 ## 4. 상품 분석
 
-<img src="./docs/image/category_product_avg.png" alt="카테고리 평균가" width="600"/> <img src="./docs/image/category_product_qna.png" alt="카테고리 qna" width="600"/>
+<img src="./docs/image/category_product_avg.png" alt="카테고리 평균가" width="500"/> <img src="./docs/image/category_product_qna.png" alt="카테고리 qna" width="500"/>
 
